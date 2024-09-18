@@ -1,0 +1,152 @@
+
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    --bs-link-color-rgb: none;
+    cursor: pointer;
+}
+
+i {
+    cursor: pointer;
+}
+
+i:hover {
+    color: #747474;
+}
+
+img:hover {
+    scale: 1.03;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+}
+
+.card {
+    border: none !important;
+    cursor: pointer;
+}
+
+.back-color {
+    background-color: #CFB8B8;
+}
+
+.navbar-scrolled {
+    background-color: #ffffff;
+    transition: 0.5s ease-in-out;
+    /* Change to your desired background color */
+}
+
+.navbar::-webkit-scrollbar {
+    background-color: #AABFD6;
+}
+
+.back-footer-color {
+    background-color: #AABFD6;
+}
+
+.p-60px {
+    padding: 60px;
+}
+
+.fs-50px {
+    font-size: 50px;
+}
+
+.fs-12px {
+    font-size: 12px;
+}
+
+.more-button {
+    padding: 15px 60px 15px 60px;
+    border: none;
+    background-color: #efefef;
+    color: #1b2331;
+    font-weight: 600;
+}
+
+.more-button:hover {
+    transition: 1s;
+    background-color: #1b2331;
+    color: #efefef;
+}
+
+.font-gray {
+    color: #747474;
+}
+
+.w-400px {
+    width: 400px;
+}
+
+input:focus-visible {
+    outline: none;
+}
+
+.underline-on-hover:hover {
+    text-decoration: underline;
+}
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.index-1 {
+    z-index: 1;
+}
+
+@media screen and (max-width:567px) {
+    .fs-50px {
+        font-size: 28px;
+    }
+
+    .h-50 {
+        height: 100% !important;
+    }
+
+    .w-400px {
+        width: 200px;
+    }
+
+    .p-80px {
+        padding: 10px;
+    }
+
+    .text-center-567 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .fs-6 {
+        font-size: 12px !important;
+    }
+
+    input {
+        font-size: 10px !important;
+    }
+}
+
+@media screen and (min-width:568px) and (max-width:768px) {
+    .fs-50px {
+        font-size: 35px;
+    }
+
+    .w-400px {
+        width: 300px;
+    }
+
+    .p-80px {
+        padding: 10px;
+    }
+}
