@@ -50,18 +50,18 @@
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title fw-bold" id="offcanvasDarkNavbarLabel">MENU</h5>
                     <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas"
-                        aria-label="Close"></button>
+                        aria-label="Close" id="close_button"></button>
                 </div>
                 <div class="offcanvas-body">
                     <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="#About">About</a>
+                            <a class="nav-link active text-dark fw-bold" onclick="removeSmallNav()" aria-current="page" href="#About">About</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="#Contact">Contact</a>
+                            <a class="nav-link active text-dark fw-bold" onclick="removeSmallNav()" aria-current="page" href="#Contact">Contact</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active text-dark fw-bold" aria-current="page" href="#Blogs">Blogs</a>
+                            <a class="nav-link active text-dark fw-bold" onclick="removeSmallNav()" aria-current="page" href="#Blogs">Blogs</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link active text-dark fw-bold" data-bs-toggle="modal"
